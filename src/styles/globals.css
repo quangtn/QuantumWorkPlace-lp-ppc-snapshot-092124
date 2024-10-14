@@ -1,0 +1,17 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.logo-carousel-container .swiper.swiper-horizontal {
+   padding-bottom: 40px;
+}
+
+
+.logo-carousel-container .swiper-pagination-bullet-active {
+    background-color: #333;
+}
+
+/* Ensure Swiper container doesn't hide overflow */
+.logo-carousel-container .swiper-container {
+    overflow: visible !important;
+}
